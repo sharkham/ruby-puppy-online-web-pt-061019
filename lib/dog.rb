@@ -24,8 +24,8 @@ class Dog
   end
 end
 
-# fido = Dog.new("Fido")
-# lassie = Dog.new("Lassie")
-# blaze = Dog.new("Blaze")
-#
-# Dog.all
+fido = Dog.new("Fido")
+lassie = Dog.new("Lassie")
+blaze = Dog.new("Blaze")
+
+puts Dog.all
